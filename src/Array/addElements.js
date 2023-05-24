@@ -20,3 +20,8 @@ fibonacci.insertFirstPosition(9);
 console.log(fibonacci);
 fibonacci.unshift(0)
 console.log(fibonacci);
+// Adicionando elementos em uma posição específica
+fibonacci.splice(2, 0, 69, 70)
+console.log(fibonacci)
+fibonacci.splice(2, 2, 69, 71)
+console.log(fibonacci)

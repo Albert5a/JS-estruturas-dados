@@ -37,3 +37,8 @@ console.log(fibonacci)
 // Removendo com método shitf (para projetos):
 fibonacci.shift();
 console.log(fibonacci)
+// Removendo elementos de uma posição específica
+fibonacci.splice(0, 2)
+console.log(fibonacci)
+fibonacci.splice(2, 2, 69, 71)
+console.log(fibonacci)
